@@ -1,0 +1,36 @@
+Project - Simple Task Manager
+Given Technical questions with Answers
+
+How long did you spend on the coding test?
+Ans: - I spent approximately 2-3 days on the coding test. This time was divided between setting up the project, implementing core functionality, styling the UI, and thoroughly testing the application to ensure it meets the requirements.
+
+What was the most useful feature that was added to the latest version of your chosen language?
+Ans- One of the most useful features added to JavaScript and central to ReactJS in recent days is the Optional Chaining (?.) operator, introduced in ES2020. This operator allows for safe access to deeply nested object properties without needing to check each level manually.
+
+How would you track down a performance issue in production? Have you ever had to do this?
+Ans- To track down a performance issue in production, I would follow these steps:
+
+(i)Monitoring and Logging: Start by checking the logs and monitoring tools for any error spikes or unusual patterns in CPU, memory, or network usage.
+
+(ii)Profiling: Use profiling tools (such as Chrome DevTools for frontend or Node.js Profiler for backend) to identify slow-running scripts, memory leaks, or inefficient database queries.
+
+(iii)Reproducing the Issue: Attempt to reproduce the issue in a staging environment that mirrors production. This helps to isolate the problem without affecting live users.
+
+(iv)Analyzing Code and Queries: Review the code for inefficiencies, such as unnecessary re-renders in React components, unoptimized loops, or poorly indexed database queries.
+
+(v)Load Testing: Perform load testing using tools like Apache JMeter or Artillery to simulate traffic and pinpoint bottlenecks under different levels of load.
+
+Regarding Experience: Yes, I have tracked down performance issues before. For example, in a previous project, I identified a performance issue caused by an unoptimized Redux store that was causing unnecessary re-renders, slowing down the UI. After profiling and identifying the problem, I implemented memoization using React.memo and optimized the state management to significantly improve performance.
+
+If you had more time, what additional features or improvements would you consider adding to the task management application?
+Ans- If I had more time, I would consider adding the following features and improvements:
+
+(i)User Authentication: Implement user authentication to allow different users to manage their tasks separately. This could be done using JWT for session management.
+
+(ii)Task Reminders and Notifications: Integrate notifications or reminders (using browser notifications or email alerts) for upcoming or overdue tasks.
+
+(iii)Task Categories: Allow users to categorize tasks into different groups or projects, with the ability to filter tasks by category.
+
+(iv)Improved UI/UX: Enhance the user interface further with animations, tooltips, and accessibility improvements to make the app more user-friendly and visually appealing.
+
+(v)Data Synchronization: Add functionality to sync tasks across multiple devices using cloud storage (e.g., Firebase) so that users can access their tasks from anywhere. These features would significantly enhance the usability, accessibility, and overall user experience of the task management application.
