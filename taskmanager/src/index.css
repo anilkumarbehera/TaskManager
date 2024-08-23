@@ -1,0 +1,133 @@
+.App {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #4b0082;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+}
+
+.task-creator,
+.filters {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fffacd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-creator input,
+.task-creator textarea,
+.task-creator select {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #b0c4de;
+  border-radius: 5px;
+}
+
+.task-creator button {
+  background-color: #7fffd4;
+  color: #000;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.task-creator button:hover {
+  background-color: #66cdaa;
+}
+
+.filters input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.filters select {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #b0c4de;
+  border-radius: 5px;
+}
+
+.task-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.task-section {
+  background-color: #e6e6fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-section h2 {
+  color: #4b0082;
+  margin-bottom: 15px;
+}
+
+.task-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-section li {
+  background: #fdfd96;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 2px solid #ffa07a;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.task-section li:hover {
+  background-color: #ffdab9;
+  transform: translateY(-2px);
+}
+
+.task-section button {
+  background-color: #ff69b4;
+  color: #fff;
+  padding: 8px 12px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.task-section button:hover {
+  background-color: #ff1493;
+}
+
+.task-section button:first-child {
+  background-color: #87ceeb;
+}
+
+.task-section button:first-child:hover {
+  background-color: #4682b4;
+}
+
+.task-section button:nth-child(2) {
+  background-color: #ffa07a;
+}
+
+.task-section button:nth-child(2):hover {
+  background-color: #ff7f50;
+}
